@@ -1,0 +1,14 @@
+.main {
+  margin-left: 80px;
+  margin-right: 80px;
+  min-height: 100vh;
+  &_cardsWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    gap: 50px;
+    margin-top: 80px;
+  }
+}
